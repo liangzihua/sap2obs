@@ -307,11 +307,11 @@ public class OBSCopyObject {
 
 User-Defined Function
 
-![image-20221105112803336](/Users/zihua.liang/Library/Application%20Support/typora-user-images/image-20221105112803336.png)
+![image-20221105112803336](https://github.com/liangzihua/sap2obs/blob/main/image/image-20221105112803336.png)
 
 在消息类型映射Message Mapping中引用自定义的User-Defined Function
 
-![image-20221105112622118](/Users/zihua.liang/Library/Application%20Support/typora-user-images/image-20221105112622118.png)
+![image-20221105112622118](https://github.com/liangzihua/sap2obs/blob/main/image//image-20221105112622118.png)
 
 ##### 3.1.2.2 PI代码实现
 
@@ -1966,4 +1966,4 @@ FORM frm_get_object_list .
 ENDFORM.
 ```
 
-![image-20221105113703546](/Users/zihua.liang/Library/Application%20Support/typora-user-images/image-20221105113703546.png)
+![image-20221105113703546](https://github.com/liangzihua/sap2obs/blob/main/image/image-20221105113703546.png)
