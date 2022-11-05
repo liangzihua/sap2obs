@@ -58,12 +58,11 @@ OBS的访问需要先根据AK（访问密钥）和SK（私有访问密钥）计�
 
 由于ABAP不能实现这个签名算法，所以我们需要一个能执行这段JAVA代码的环境来计算签名（当然，如果后续SAP支持这段算法计算的，也可以直接在SAP计算签名）。
 
-假设有一个外围的JAVA系统能开启一个服务计算签名，这个问题就解决了。但目前没有这样的外围系统，所以我们借用PI的User-Defined Function来说实现这段签名算法。 
+假设有一个外围的JAVA系统能开启一个服务计算签名，这个问题就解决了。但目前没有这样的外围系统，所以我们借用PI的User-Defined Function（UDF)来说实现这段签名算法。 
 
-借用PI的Node Function需要配置PI接口，但我们不需要跟外围系统进行交互， 所以PI的发送方和接受方都是SAP系统。
+借用PI的UDF需要配置PI接口，但我们不需要跟外围系统进行交互， 所以PI的发送方和接受方都是SAP系统。
 
-
-![image-20210320151148021](https://github.com/liangzihua/sap2obs/blob/b3788bc2e65dfd09ef2cd0d9b1a3b12ece8f7495/image/image-20210320151148021.png)
+https://github.com/liangzihua/sap2obs/blob/main/image/image-20221105140941421.png
 
 ## 3. 接口实现
 
@@ -303,7 +302,7 @@ public class OBSCopyObject {
 
 ##### 3.1.2.1 创建PI接口和User-Defined Function
 
-​		在PI创建一个同步的接口，接口的发送方和接收方系统都是S4。在接口中的Message Mapping中，创建Node Function，将JAVA代码中GetObsSigntrue方法复制到User-Defined Function.
+​		在PI创建一个同步的接口，接口的发送方和接收方系统都是S4。在接口中的Message Mapping中，创建自定义函数User-Defined Function，将JAVA代码中GetObsSigntrue方法复制到User-Defined Function.
 
 User-Defined Function
 
