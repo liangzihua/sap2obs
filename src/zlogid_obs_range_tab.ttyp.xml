@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZLOGID_OBS_RANGE_TAB</TYPENAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <ROWTYPE>ZLOGID_OBS_RANGE</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>OBS Log id range table</DDTEXT>
+    <TTYPKIND>R</TTYPKIND>
+    <RANGE_CTYP>ZLOGID_OBS</RANGE_CTYP>
+    <CTDATATYPE>CHAR</CTDATATYPE>
+    <CTLENG>000020</CTLENG>
+   </DD40V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

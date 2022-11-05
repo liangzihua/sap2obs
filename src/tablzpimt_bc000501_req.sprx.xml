@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIMT_BC000501_REQ</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZPIMT_BC000501_REQ</OBJ_NAME_M>
+     <HASH_ID>9546ACF5761FEF405718EC50F6AE112BB01D5298</HASH_ID>
+     <ID>&lt;message&gt; MT_BC000501_Req http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_BC000501_Req</IFR_NAME>
+     <IFR_NSPCE>http://www.deppon.com/ERP/BC</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.deppon.com/ERP/BC</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZPI</PREFIX>
+     <CATEGORY>ifmmessage</CATEGORY>
+     <X-ML_NSPCE>http://www.deppon.com/ERP/BC</X-ML_NSPCE>
+     <X-ML_NAME>MT_BC000501_Req</X-ML_NAME>
+     <VERSION_ID>ee21fb2f39f511ebbf5800000045795c</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIMT_BC000501_REQ</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>MT_BC000501_REQ</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>MT_BC000501_REQ</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZPIDT_BC000501_REQ</OBJ_NAME_R>
+     <ID>&lt;part&gt; MT_BC000501_Req &lt;message&gt; MT_BC000501_Req http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>MT_BC000501_Req</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>MT_BC000501_REQ</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIMT_BC000501_REQ</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZPIMT_BC000501_REQ</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZPIMT_BC000501_REQ</OBJ_NAME2>
+     <ID>&lt;message&gt; MT_BC000501_Req http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>MT_BC000501_Req</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZPIMT_BC000501_REQ</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmmessage</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

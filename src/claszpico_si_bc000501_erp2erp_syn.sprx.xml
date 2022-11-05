@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME>
+     <OBJECT_M>CLAS</OBJECT_M>
+     <OBJ_NAME_M>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME_M>
+     <HASH_ID>5774726D7F0EFD92C939AE98FA2EE5BDB8AC6246</HASH_ID>
+     <ID>&lt;portType&gt; SI_BC000501_ERP2ERP_Syn_Out http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>SI_BC000501_ERP2ERP_Syn_Out</IFR_NAME>
+     <IFR_NSPCE>http://www.deppon.com/ERP/BC</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.deppon.com/ERP/BC</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZPI</PREFIX>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>O</DIRECTION>
+     <SYNCHRON>D</SYNCHRON>
+     <X-ML_NSPCE>http://www.deppon.com/ERP/BC</X-ML_NSPCE>
+     <X-ML_NAME>SI_BC000501_ERP2ERP_Syn_Out</X-ML_NAME>
+     <FURTHER_DATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;SOAP_APPL&gt;urn:sap-com:soap:application:esr:client:710&lt;/SOAP_APPL&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHER_DATA>
+     <VERSION_ID>0b2e232339f611eb978e00000045795c</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME2>
+     <ID>&lt;portType&gt; SI_BC000501_ERP2ERP_Syn_Out http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>SI_BC000501_ERP2ERP_Syn_Out</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</R3_NAME>
+     <R3_TEXT>Proxy Class (generated)</R3_TEXT>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>O</DIRECTION>
+     <SYNCHRON>D</SYNCHRON>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SI_BC000501_ERP2ERP_SYN_OUT</OBJ_NAME1>
+     <OBJECT2>METH</OBJECT2>
+     <OBJ_NAME2>SI_BC000501_ERP2ERP_SYN_OUT</OBJ_NAME2>
+     <ID>&lt;operation&gt; SI_BC000501_ERP2ERP_Syn_Out &lt;portType&gt; SI_BC000501_ERP2ERP_Syn_Out http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>operation</IFR_TYPE>
+     <IFR_NAME>SI_BC000501_ERP2ERP_Syn_Out</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>METH</R3_TYPE>
+     <R3_NAME>SI_BC000501_ERP2ERP_SYN_OUT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+     <DIRECTION>O</DIRECTION>
+     <SYNCHRON>X</SYNCHRON>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SI_BC000501_ERP2ERP_SYN_OUT</OBJ_NAME1>
+     <OBJECT2>PAEX</OBJECT2>
+     <OBJ_NAME2>INPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZPIMT_BC000501_RES</OBJ_NAME_R>
+     <ID>&lt;input&gt; input &lt;operation&gt; SI_BC000501_ERP2ERP_Syn_Out &lt;portType&gt; SI_BC000501_ERP2ERP_Syn_Out http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>PartInput</IFR_TYPE>
+     <IFR_NAME>input</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAEX</R3_TYPE>
+     <R3_NAME>INPUT</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZPICO_SI_BC000501_ERP2ERP_SYN</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>SI_BC000501_ERP2ERP_SYN_OUT</OBJ_NAME1>
+     <OBJECT2>PAIM</OBJECT2>
+     <OBJ_NAME2>OUTPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZPIMT_BC000501_REQ</OBJ_NAME_R>
+     <ID>&lt;output&gt; output &lt;operation&gt; SI_BC000501_ERP2ERP_Syn_Out &lt;portType&gt; SI_BC000501_ERP2ERP_Syn_Out http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>PartOutput</IFR_TYPE>
+     <IFR_NAME>output</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAIM</R3_TYPE>
+     <R3_NAME>OUTPUT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

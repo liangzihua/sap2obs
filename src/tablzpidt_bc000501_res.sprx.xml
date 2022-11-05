@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIDT_BC000501_RES</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZPIDT_BC000501_RES</OBJ_NAME_M>
+     <HASH_ID>F3F7C7972D4CA10336085C6F77B3BE2A7BD4DF9A</HASH_ID>
+     <ID>&lt;type&gt; DT_BC000501_Res http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>DT_BC000501_Res</IFR_NAME>
+     <IFR_NSPCE>http://www.deppon.com/ERP/BC</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.deppon.com/ERP/BC</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZPI</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <X-ML_NSPCE>http://www.deppon.com/ERP/BC</X-ML_NSPCE>
+     <X-ML_NAME>DT_BC000501_Res</X-ML_NAME>
+     <VERSION_ID>1df0c38239f511ebc36a00000045795c</VERSION_ID>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIDT_BC000501_RES</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RES_JSON</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RES_JSON</OBJ_NAME2>
+     <ID>&lt;element&gt; resJSON &lt;type&gt; DT_BC000501_Res http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>resJSON</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RES_JSON</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIDT_BC000501_RES</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>UUID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>UUID</OBJ_NAME2>
+     <ID>&lt;element&gt; uuid &lt;type&gt; DT_BC000501_Res http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>uuid</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>UUID</R3_NAME>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZPIDT_BC000501_RES</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZPIDT_BC000501_RES</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZPIDT_BC000501_RES</OBJ_NAME2>
+     <ID>&lt;type&gt; DT_BC000501_Res http://www.deppon.com/ERP/BC http://www.deppon.com/ERP/BC</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>DT_BC000501_Res</IFR_NAME>
+     <IFR_LANGU>EN</IFR_LANGU>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZPIDT_BC000501_RES</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
