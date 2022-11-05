@@ -62,7 +62,8 @@ OBS的访问需要先根据AK（访问密钥）和SK（私有访问密钥）计�
 
 借用PI的Node Function需要配置PI接口，但我们不需要跟外围系统进行交互， 所以PI的发送方和接受方都是SAP系统。
 
-![image-20210320151148021](https://github.com/liangzihua/sap2obs/raw/main/image/image-20210320151148021.png)
+
+![image-20210320151148021](https://github.com/liangzihua/sap2obs/blob/b3788bc2e65dfd09ef2cd0d9b1a3b12ece8f7495/image/image-20210320151148021.png)
 
 ## 3. 接口实现
 
