@@ -302,7 +302,7 @@ public class OBSCopyObject {
 
 ##### 3.1.2.1 创建PI接口和User-Defined Function
 
-​		在PI创建一个同步的接口，接口的发送方和接收方系统都是S4。在接口中的Message Mapping中，创建自定义函数User-Defined Function，将JAVA代码中GetObsSigntrue方法复制到User-Defined Function.
+​		在PI创建一个同步的接口，接口的发送方和接收方系统都是S4。在接口中的Message Mapping中，创建自定义函数User-Defined Function，将JAVA代码中CalcObsSigntrue方法复制到User-Defined Function.
 
 User-Defined Function
 
